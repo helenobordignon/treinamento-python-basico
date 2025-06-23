@@ -85,3 +85,35 @@ Laços infinitos são úteis quando queremos executar um bloco de instruções i
 
 while True:
     bloco_de_codigo
+
+**Tipos de dados sequenciais e dicionário:**
+
+Em Python, os tipos sequenciais, como listas, tuplas e conjuntos, têm um papel essencial na organização e manipulação de dados, permitindo armazenar coleções ordenadas e únicas de elementos. Operadores comuns, como indexação, fatiamento e concatenação, são utilizados para acessar e manipular essas sequências de forma eficiente. Além disso, os dicionários de estruturas de dados chave-valor oferecem uma maneira eficaz de associar informações, sendo úteis para armazenamento e recuperação de dados de forma rápida e eficiente em aplicações Python.
+
+_String_
+Existem alguns métodos interessantes para tratar strings em Python. Entre eles, ressaltamos os seguintes:
+![alt text](images/image.png)
+
+_Listas_
+São sequências mutáveis, normalmente usadas para armazenar coleções de itens homogêneos. Uma lista pode ser criada de algumas maneiras, confira:
+![alt text](images/image-1.png)
+
+_Tuplas_
+São sequências imutáveis, tipicamente usadas para armazenar coleções de itens heterogêneos. Elas são aplicadas também quando é necessário utilizar uma sequência imutável de dados homogêneos. Uma tupla pode ser criada de algumas maneiras:
+![alt text](images/image-2.png)
+
+_Range_
+Representa uma sequência imutável de números e frequentemente é usado em loops de um número específico de vezes, como o for.
+O range pode ser chamado de maneira simples, apenas com um argumento. Nesse caso, a sequência começará em 0 e será incrementada de uma unidade até o limite do parâmetro passado (exclusive). Por exemplo, range(3) cria a sequência (0, 1, 2).
+Para que a sequência não comece em 0, podemos informar o início e o fim como parâmetros, lembrando que o parâmetro fim não entra na lista (exclusive o fim). O padrão é incrementar cada termo em uma unidade. Ou seja, a chamada range(2, 7) cria a sequência (2, 3, 4, 5, 6).
+*Comentário:*
+Em Python, é possível criar sequências mais complexas, indicando os parâmetros de início, fim e passo, nessa ordem. O passo é o valor que será incrementado de um termo para o próximo. Por exemplo, range(2, 9, 3) cria a sequência (2, 5, 8).
+
+_Dicionários_
+Permitem que itens de uma sequência recebam índices definidos pelo usuário. Um dicionário contém pares de (chave, valor). A seguir, observe o formato geral de um objeto dicionário:
+{<chave 1>:<valor 1>, <chave 2>:<valor 2>, ..., <chave i>:<valor i>}
+
+Poderíamos criar um dicionário em que cada pessoa fosse representada pelo seu CPF, com nome e sobrenome. Para isso, teríamos o seguinte código:
+>>> pessoas = {'111222335-44':['Jod0','Silva'], '222333444-55':['Maria', 'Santos'], '353444555-66': ['Jorge', 'Silva']} 
+>>> pessoas ['111222353-44'] 
+['João', 'Silva']
