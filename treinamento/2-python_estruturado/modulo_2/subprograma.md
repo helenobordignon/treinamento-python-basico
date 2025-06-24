@@ -58,3 +58,17 @@ def calculaIMC(peso, altura):
 **Procedimentos e funções**
 Os subprogramas podem ser procedimentos e funções. Veja a diferença entre eles:
 ![alt text](images/image-2.png)
+
+# Funções recursivas e docstrings
+
+Vamos explorar as funções recursivas e aprender a criar funções que chamam a si mesmas para resolver problemas de maneira eficiente. Descubra como aplicar esse conceito em algoritmos complexos e desbloqueie novas possibilidades na programação.
+
+**Recursividade**
+Uma função recursiva é aquela que chama a si mesma. A seguir, veja um exemplo de função regressiva() (código 16 do arquivo disponibilizado).
+Exemplo:
+
+def regressiva(x):
+   print(x)
+   regressiva(x - 1)
+
+Conceitualmente, a execução será repetida indefinidamente até que haja algum erro por falta de memória. Perceba que não definimos adequadamente uma condição de parada para a função regressiva(), o que leva a esse comportamento ruim. Em Python, o interpretador pode interromper a execução indefinida, mas essa não é uma boa prática. 
