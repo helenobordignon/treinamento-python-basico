@@ -48,3 +48,8 @@ Uma prática muito importante é utilizar comentários no seu programa, explican
 - PEP
 Uma característica marcante da comunidade de desenvolvedores Python é manter uma lista de propostas de melhorias, chamadas PEP.
 '''
+
+'''
+Somente um = se lê "recebe"
+Dois == se lê "igual a"
+'''
